@@ -31,11 +31,11 @@
 </head>
 <body>
 	<form name="pkc">
-		<input type="checkbox" name="food">피자<p>
-		<input type="checkbox" name="food">초밥<p>
-		<input type="checkbox" name="food">족발<p>
-		<input type="checkbox" name="food">알탕<p>
-		<input type="checkbox" name="food">햄버거<p>
+		<input type="checkbox" name="food">피자
+		<input type="checkbox" name="food">초밥
+		<input type="checkbox" name="food">족발
+		<input type="checkbox" name="food">알탕
+		<input type="checkbox" name="food">햄버거
 		<input type="checkbox" name="food">짜장면<p>
 		
 		<input type="button" value="선택완료" onclick="check()">
