@@ -22,21 +22,21 @@
 			b.phone.value = a3;
 			b.pwd.value = a4;
 			b.sogae.value = a5;
- */			
-			var c = document.getElementsByName;
-			var c1 = document.getElementsByName("name")[0].value;
-			var c2 = document.getElementsByName("age")[0].value;
-			var c3 = document.getElementsByName("phone")[0].value;
-			var c4 = document.getElementsByName("pwd")[0].value;
-			var c5 = document.getElementsByName("sogae")[0].value;
-
-			b.name.value = c1;
-			b.age.value = c2;
-			b.phone.value = c3;
-			b.pwd.value = c4;
-			b.sogae.value = c5;					
+ 			*/
+ 			
+			var a1 = document.getElementsByName("name")[0].value;
+			var a2 = document.getElementsByName("age")[0].value;
+			var a3 = document.getElementsByName("phone")[0].value;
+			var a4 = document.getElementsByName("pwd")[0].value;
+			var a5 = document.getElementsByName("sogae")[0].value;
 			
+			document.getElementsByName("name")[1].value = a1;
+			document.getElementsByName("age")[1].value =a2;
+			document.getElementsByName("phone")[1].value =a3;
+			document.getElementsByName("pwd")[1].value =a4;
+			document.getElementsByName("sogae")[1].value =a5;
 		}
+		
 		function moveup() {
 			var a = document.pkc;
 			var b = document.chan;
